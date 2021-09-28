@@ -1,0 +1,21 @@
+{
+  "name": "chakra-components",
+  "version": "1.0.0",
+  "description": "few utility components made with chakra UI",
+  "main": "index.js",
+  "repository": "https://github.com/deevo-sage/Chakra-Components.git",
+  "author": "sidharth sahni <sidharthsahniii@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.8",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "framer-motion": "4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9"
+  }
+}
