@@ -90,6 +90,27 @@ const ImageCarousel = (props) => {
           position="absolute"
           objectFit={["contain", "cover", "fit", "fill"][props.args.imageFit]}
         />
+        <Flex
+          height="100%"
+          zIndex="2"
+          width="100%"
+          rounded="lg"
+          position="absolute"
+          direction="column"
+          justifyContent="space-between"
+          alignItems="center"
+          objectFit={["contain", "cover", "fit", "fill"][props.args.imageFit]}
+        >
+          <Flex fontSize={props.args.headerFontSize}>
+            {props.args.headerText[index]}
+          </Flex>
+          <Flex fontSize={props.args.middleFontSize}>
+            {props.args.middleText[index]}
+          </Flex>
+          <Flex fontSize={props.args.footerFontSize}>
+            {props.args.footerText[index]}
+          </Flex>
+        </Flex>
       </Flex>
       <Flex
         bg="transparent"
