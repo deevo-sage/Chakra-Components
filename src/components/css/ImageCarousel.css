@@ -1,12 +1,12 @@
 .animation1 {
   animation: animation-1 0.5s;
 }
-/*
+
 .animation2 {
   animation: animation-2 0.5s;
 }
 
-.animation3 {
+/* .animation3 {
   animation: animation-3 0.5s;
 } */
 
@@ -23,7 +23,7 @@
     height: 100%;
   }
 }
-/*
+
 @keyframes animation-2 {
   0% {
     height: 100%;
@@ -35,7 +35,7 @@
   }
 }
 
-@keyframes animation-3 {
+/* @keyframes animation-3 {
   0% {
     height: 0%;
     width: 100%;
